@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+#nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.027);
+    position: absolute;
+    color: rgb(64, 8, 249);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+}
+#line{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: rgba(65, 61, 61, 0.288);
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 60%;
+    border-top: 2px solid rgba(255, 255, 255, 0.205);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.205);
+    background-color: transparent;
+}
+#line h1{
+    font-size: 20px;
+}
+
+#btm{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    width: 35%;
+    height: 100%;
+    background-color: black;
+}
+#left h1{
+    color: white;
+    font-size: 250px;
+    z-index: 1;
+    position:absolute;
+    top: 10%;
+    font-family:sans-serif;
+    padding: 10px 10px;
+    z-index: 2;
+}
+#left #text{
+    position: absolute;
+    top: 80%;
+    left: 50px;
+    text-align: center;
+    color: white;
+    align-items: flex-end;
+}
+#right{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(238, 226, 226);
+}
+#top{
+    width: 100%;
+    height: 75%;
+    background-color: blue;
+} 
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    /* background-color: rgb(12, 12, 19); */
+    
+}
+#bottom h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+#bottom h6{
+    color: red;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.074);
+    border-radius: 10px;
+    border: 1px solid red;
+    position: absolute;
+}
+
+#center{
+    width: 40%;
+    height: 100%;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_xTjTYXCF546ya-YCE8dIjWHsCOGxhZws0g&usqp=CAU); */
+    object-fit: cover;
+    /* z-index: 1; */
+    overflow: hidden;
+}
+#center #img{
+    width: 100%;
+    height: 100%;
+}
+#top #img2{
+    width: 100%;
+    height: 100%;
+}
+
+#center h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    top: 80%;
+    font-size: 40px;
+    line-height: 30px;
+    padding-left: 20px;
+}
